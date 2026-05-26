@@ -1,0 +1,12 @@
+﻿<svg width="400" height="600" viewBox="0 0 400 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portada Amplis y ceniza">
+  <rect width="400" height="600" fill="#111"/>
+  <rect x="46" y="150" width="308" height="260" fill="#060606" stroke="#EFE7DA" stroke-width="10"/>
+  <circle cx="130" cy="244" r="44" fill="#8F1F26"/>
+  <circle cx="270" cy="244" r="44" fill="#8F1F26"/>
+  <path d="M92 342H308" stroke="#F4EFE6" stroke-width="12"/>
+  <path d="M104 376H296" stroke="#F4EFE6" stroke-opacity=".45" stroke-width="10"/>
+  <text x="38" y="78" fill="#F4EFE6" font-family="Impact, sans-serif" font-size="48">AMPLIS</text>
+  <text x="38" y="126" fill="#EFE7DA" font-family="Impact, sans-serif" font-size="48">Y CENIZA</text>
+  <text x="38" y="540" fill="#F4EFE6" font-family="Arial, sans-serif" font-size="24" font-weight="700">Marco Salvatierra</text>
+</svg>
+

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos | Impermanente</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/impermanente-logo.png" alt=""><span><strong>Impermanente</strong><small>Ediciones</small></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Navegacion principal">
+      <a href="index.html">Inicio</a>
+      <a href="quienes-somos.html">Quiénes somos</a>
+      <a href="titulos-autores.html">Títulos</a>
+      <a href="puntos-venta.html">Puntos de venta</a>
+      <a class="active" href="eventos.html">Eventos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-hero narrow">
+      <p class="eyebrow">Próximos eventos</p>
+      <h1>Presentaciones, firmas y noches con ruido de paginas.</h1>
+      <p class="lead">Agenda de encuentros relacionados con nuestros libros: librerias, ferias, conciertos, charlas y colaboraciones.</p>
+    </section>
+
+    <section class="timeline" aria-label="Agenda de eventos">
+      <article>
+        <time datetime="2026-06-12"><strong>12</strong> Jun</time>
+        <div>
+          <p class="tag">Presentacion</p>
+          <h2>Noches electricas en directo</h2>
+          <p>Libreria Distorsion, Madrid. Conversacion con Lena Valdes y lectura musicada.</p>
+        </div>
+      </article>
+      <article>
+        <time datetime="2026-07-04"><strong>04</strong> Jul</time>
+        <div>
+          <p class="tag red">Feria</p>
+          <h2>Mesa de editoriales independientes</h2>
+          <p>Encuentro de sellos pequenos con catalogo de narrativa, ensayo y cultura musical.</p>
+        </div>
+      </article>
+      <article>
+        <time datetime="2026-09-18"><strong>18</strong> Sep</time>
+        <div>
+          <p class="tag">Firma</p>
+          <h2>Amplis y ceniza: charla con autor</h2>
+          <p>La Aguja Negra, Barcelona. Firma de ejemplares y coloquio sobre memoria de salas.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>Impermanente Ediciones</p><p>Libros independientes con volumen.</p></footer>
+  <script src="assets/main.js"></script>
+</body>
+</html>

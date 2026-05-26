@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto | Impermanente</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/impermanente-logo.png" alt=""><span><strong>Impermanente</strong><small>Ediciones</small></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Navegacion principal">
+      <a href="index.html">Inicio</a>
+      <a href="quienes-somos.html">Quiénes somos</a>
+      <a href="titulos-autores.html">Títulos</a>
+      <a href="puntos-venta.html">Puntos de venta</a>
+      <a href="eventos.html">Eventos</a>
+      <a class="active" href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="contact-layout">
+      <div class="contact-copy">
+        <p class="eyebrow">Contacto</p>
+        <h1>Hablemos de libros, librerias y proximas fechas.</h1>
+        <p class="lead">Escríbenos para pedidos, distribución, prensa, eventos, manuscritos o cualquier propuesta relacionada con el catálogo.</p>
+        <div class="contact-methods">
+          <p><strong>Email</strong><a href="mailto:hola@impermanente.example">hola@impermanente.example</a></p>
+          <p><strong>Prensa</strong><a href="mailto:prensa@impermanente.example">prensa@impermanente.example</a></p>
+          <p><strong>Redes</strong><span>@impermanente_ediciones</span></p>
+        </div>
+      </div>
+
+      <form class="contact-form" action="#" method="post">
+        <label>
+          Nombre
+          <input type="text" name="nombre" placeholder="Tu nombre" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="tu@email.com" required>
+        </label>
+        <label>
+          Motivo
+          <select name="motivo" required>
+          <option value="">Selecciona una opción</option>
+            <option>Librería / distribución</option>
+            <option>Prensa</option>
+            <option>Evento</option>
+            <option>Lectores</option>
+            <option>Manuscritos</option>
+          </select>
+        </label>
+        <label>
+          Mensaje
+          <textarea name="mensaje" rows="6" placeholder="Cuéntanos qué necesitas" required></textarea>
+        </label>
+        <button class="button primary" type="submit">Enviar mensaje</button>
+        <p class="form-note" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>Impermanente Ediciones</p><p>Libros independientes con volumen.</p></footer>
+  <script src="assets/main.js"></script>
+</body>
+</html>

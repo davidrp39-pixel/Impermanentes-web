@@ -1,0 +1,10 @@
+﻿<svg width="400" height="600" viewBox="0 0 400 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portada Noches electricas">
+  <rect width="400" height="600" fill="#090909"/>
+  <path d="M0 0H400V180H0V0Z" fill="#8F1F26"/>
+  <path d="M70 112H330M70 150H285" stroke="#F4EFE6" stroke-width="12"/>
+  <path d="M72 250H326L200 480L72 250Z" fill="#15110E" stroke="#EFE7DA" stroke-width="10"/>
+  <path d="M200 250V480" stroke="#8F1F26" stroke-width="8"/>
+  <text x="48" y="80" fill="#F4EFE6" font-family="Impact, sans-serif" font-size="50">NOCHES</text>
+  <text x="48" y="550" fill="#EFE7DA" font-family="Arial, sans-serif" font-size="26" font-weight="700">Lena Valdes</text>
+</svg>
+

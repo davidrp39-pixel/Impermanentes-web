@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Títulos y autores | Impermanente</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/impermanente-logo.png" alt=""><span><strong>Impermanente</strong><small>Ediciones</small></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="quienes-somos.html">Quiénes somos</a>
+      <a class="active" href="titulos-autores.html">Títulos</a>
+      <a href="puntos-venta.html">Puntos de venta</a>
+      <a href="eventos.html">Eventos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-hero catalog-hero">
+      <div>
+        <p class="eyebrow">Títulos publicados / Autores</p>
+        <h1>Catálogo Impermanente.</h1>
+        <p class="lead">Dos obras publicadas por la editorial, con una mirada literaria áspera, íntima y cercana a la memoria de los espacios que se deshacen.</p>
+      </div>
+      <img src="assets/catalog-stack.svg" alt="Ilustración de libros publicados">
+    </section>
+
+    <section class="book-grid" aria-label="Catálogo editorial">
+      <article class="book-card">
+        <img src="assets/cover-muros-piedra-hueso.png" alt="Portada de Muros de piedra y Hueso">
+        <div>
+          <p class="tag">Narrativa</p>
+          <h2>Muros de piedra y Hueso</h2>
+          <p class="author">Eva Cano y Francisco López</p>
+          <p>Una obra de atmósfera íntima, construida desde los límites de la memoria, la casa, el cuerpo y aquello que permanece adherido a los lugares.</p>
+          <dl>
+            <dt>Autores</dt><dd>Eva Cano y Francisco López</dd>
+            <dt>Editorial</dt><dd>Impermanente Ediciones</dd>
+          </dl>
+        </div>
+      </article>
+
+      <article class="book-card">
+        <img src="assets/cover-ser-estatico-impermanente.png" alt="Portada de El ser estático impermanente (Que reventó)">
+        <div>
+          <p class="tag red">Rock / Relato</p>
+          <h2>El ser estático impermanente (Que reventó)</h2>
+          <p class="author">Francisco López</p>
+          <p>Un título de pulso eléctrico, estética desgastada y espíritu rockero, entre la identidad, el estallido y la permanencia imposible.</p>
+          <dl>
+            <dt>Autor</dt><dd>Francisco López</dd>
+            <dt>Editorial</dt><dd>Impermanente Ediciones</dd>
+          </dl>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>Impermanente Ediciones</p><p>Libros independientes con volumen.</p></footer>
+  <script src="assets/main.js"></script>
+</body>
+</html>

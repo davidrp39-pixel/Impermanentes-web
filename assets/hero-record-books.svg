@@ -1,0 +1,20 @@
+﻿<svg width="760" height="760" viewBox="0 0 760 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Disco y libros con estetica rock">
+  <rect width="760" height="760" fill="transparent"/>
+  <circle cx="380" cy="382" r="254" fill="#050505" stroke="#EFE7DA" stroke-width="10"/>
+  <circle cx="380" cy="382" r="204" stroke="#25211B" stroke-width="18"/>
+  <circle cx="380" cy="382" r="132" stroke="#1B1B1B" stroke-width="16"/>
+  <circle cx="380" cy="382" r="58" fill="#8F1F26" stroke="#EFE7DA" stroke-width="8"/>
+  <circle cx="380" cy="382" r="14" fill="#F4EFE6"/>
+  <path d="M136 518L466 356L520 466L190 628L136 518Z" fill="#15110E" stroke="#F4EFE6" stroke-width="6"/>
+  <path d="M176 536L462 396" stroke="#EFE7DA" stroke-width="7"/>
+  <path d="M190 566L476 426" stroke="#8F1F26" stroke-width="7"/>
+  <path d="M214 596L500 456" stroke="#F4EFE6" stroke-opacity=".45" stroke-width="7"/>
+  <path d="M214 158H548V512H214V158Z" fill="#120D0D" stroke="#EFE7DA" stroke-width="8"/>
+  <path d="M244 190H518V258H244V190Z" fill="#8F1F26"/>
+  <path d="M244 292H520" stroke="#F4EFE6" stroke-width="8"/>
+  <path d="M244 326H490" stroke="#F4EFE6" stroke-opacity=".55" stroke-width="8"/>
+  <path d="M244 360H512" stroke="#F4EFE6" stroke-opacity=".55" stroke-width="8"/>
+  <path d="M244 428H380" stroke="#EFE7DA" stroke-width="10"/>
+  <path d="M258 210L504 488" stroke="#050505" stroke-width="16" stroke-opacity=".55"/>
+</svg>
+

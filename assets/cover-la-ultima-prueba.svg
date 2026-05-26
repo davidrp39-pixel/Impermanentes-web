@@ -1,0 +1,10 @@
+﻿<svg width="400" height="600" viewBox="0 0 400 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portada La ultima prueba de sonido">
+  <rect width="400" height="600" fill="#120D0D"/>
+  <path d="M64 96H336V508H64V96Z" fill="#070707" stroke="#F4EFE6" stroke-width="8"/>
+  <path d="M104 158H296M104 202H268M104 246H310" stroke="#EFE7DA" stroke-width="10"/>
+  <path d="M96 330C142 292 174 292 220 330C262 365 292 365 334 330" stroke="#8F1F26" stroke-width="16"/>
+  <path d="M96 384C142 346 174 346 220 384C262 419 292 419 334 384" stroke="#EFE7DA" stroke-width="10"/>
+  <text x="86" y="70" fill="#F4EFE6" font-family="Impact, sans-serif" font-size="34">LA ULTIMA PRUEBA</text>
+  <text x="86" y="552" fill="#EFE7DA" font-family="Arial, sans-serif" font-size="24" font-weight="700">Nuria Cobalto</text>
+</svg>
+
